@@ -22,7 +22,7 @@ class Stackoverflow:
             number=0
             for question in _questions:
                 number+=1
-                f.write(f'{number}. Название статьи: "{question["title"]}", ссылка: {question["link"]}')
+                f.write(f'{number}. Название статьи: "{question["title"]}", ссылка: {question["link"]}\n')
                 print(f'{number}. Название статьи: "{question["title"]}", ссылка: {question["link"]}')
 
 
